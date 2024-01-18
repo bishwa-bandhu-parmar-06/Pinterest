@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.751);
+    font-family: cursive;
+}
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-image: url("/images/profileimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header-items {
+    height: 100%;
+    width: 650px;
+    float: right;
+    margin-right: 20px;
+}
+.header-items a button {
+    /* background-color: rebeccapurple; */
+    height: 65px;
+    width: 100px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    font-family: cursive;
+}
+
+
+h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+hr {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 95%;
+}
+#postimgform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.751)
+}
+#postimgform input {
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+#postimgform input:focus {
+    border: 2px solid #000;
+}
+#postimgform textarea {
+    height: 100px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000;
+}
+#postimgform textarea:focus {
+    border: 2px solid #000;
+}
+#postimgform input[type="submit"] {
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+#postimgform input[type="submit"]:hover {
+    background-color: #fff;
+    color: red;
+}

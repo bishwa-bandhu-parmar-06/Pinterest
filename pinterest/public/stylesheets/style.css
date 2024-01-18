@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.29);
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+
+
+
+
+.container {
+  height: 650px;
+  width: 500px;
+  /* padding: 20px; */
+  border-radius: 40px;
+  background-color: #ffffffee;
+}
+.pinterest-logo {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+  background-color: red;
+}
+.container h1 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  /* font-size: 18px; */
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  margin-left: 90px;
+  margin-bottom: 5px;
+  font-family: "Pacifico", cursive;
+  font-size: 18px;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 10px; */
+  width: 60%;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  padding-left: 10px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 60%;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  background-color: #e60023;
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #E60023;
+  border: 1px solid #e60023;
+}
+.container a {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Pacifico", cursive;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+.container a:hover {
+  text-decoration: underline;
+}
+form p {
+  height: min-content;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Pacifico", cursive;
+  font-size: 12px;
+  text-align: center;
+}

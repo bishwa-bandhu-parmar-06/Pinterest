@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.751);
+    font-family: cursive;
+}
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-image: url("/images/profileimg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.header-items {
+    height: 100%;
+    width: 650px;
+    float: right;
+    margin-right: 20px;
+}
+.header-items a button {
+    /* background-color: rebeccapurple; */
+    height: 65px;
+    width: 100px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    font-family: cursive;
+}
+
+
+
+.profile-container {
+    height: 400px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+form {
+    display: none;
+}
+
+.profile-card {
+    height: 100%;
+    width: 300px;
+    padding: 10px 10px;
+    /* background-color: blue; */
+}
+.profile-img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 30%;
+    background-image: url("/images/profileimg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+/* .profile-img img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+} */
+#pencil {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    background-color: #fff;
+    height: 25px;
+    width: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+#pencil i {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.profile-card h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-card h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-card a {
+    text-decoration: none;
+}
+.profile-card a button {
+    height: 50px;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    font-family: cursive;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+   margin-top: 30px;
+   margin-right: 10px;
+   margin-left: 20px;
+}
+
+.add-files {
+    margin-left: 20px;
+}
+.add-files a button {
+    height: 50px;
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    font-family: cursive;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.profile-card a button:hover {
+    background-color:  rgba(0, 0, 0, 0.603);
+}
+
+
+.card-container {
+    height: 50vw;
+    width: 100%;
+    /* background-color: brown; */
+    padding: 20px;
+}
+.card-section {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: #fff; */
+}
+
+.card-items1 {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.card-items1 .card1 {
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    /* background-image: url("/images/cartd1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.card1 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card-items1 h4 {
+    text-align: center;
+}
+.card-items1 h5 {
+    text-align: center;
+}
+
+.card-items2 {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.card-items2 .card2 {
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    /* background-image: url("/images/card2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.card2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.card-items2 h4 {
+    text-align: center;
+}
+.card-items2 h5 {
+    text-align: center;
+}
